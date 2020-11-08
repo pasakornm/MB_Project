@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Rev_IDall"
+        android:textStyle="bold"
+        android:text="Reserve ID: "/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Rev_ID2all"
+        android:text="Reserve ID"
+        android:layout_toRightOf="@id/Rev_IDall"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/Cuss_IDall"
+        android:text="Cus ID: "
+        android:layout_below="@id/Rev_IDall"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/Cuss_ID2all"
+        android:text="Cus ID"
+        android:layout_below="@id/Rev_ID2all"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/Cuss_IDall"
+        />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/Res_DTall"
+        android:layout_below="@id/Rev_IDall"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="5dp"
+        android:text="Reserve Date: "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/Res_DT2all"
+        android:layout_toRightOf="@id/Res_DTall"
+        android:layout_below="@id/Rev_IDall"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="5dp"
+        android:text="Reserve Date: "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/In_DTall"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Check In Date: "
+        android:textStyle="bold"
+        android:layout_below="@id/Res_DTall"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/In_DT2all"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Check In Date: "
+        android:layout_toRightOf="@id/In_DTall"
+        android:layout_below="@id/Res_DTall"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Out_DTall"
+        android:layout_below="@id/In_DTall"
+        android:text="Check Out Date: "
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Out_DT2all"
+        android:layout_below="@id/In_DTall"
+        android:layout_toRightOf="@id/Out_DTall"
+        android:text="Check Out Date: "
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Total_PCall"
+        android:layout_below="@id/Out_DTall"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:text="Total Price: "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Total_PC2all"
+        android:layout_below="@id/Out_DTall"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Total Price: "
+        android:layout_toRightOf="@id/Total_PCall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Room_Typeall"
+        android:layout_below="@+id/Total_PCall"
+        android:text="Room Type: "
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Room_Type2all"
+        android:layout_toRightOf="@+id/Room_Typeall"
+        android:layout_below="@id/Total_PC2all"
+        android:text="Room Type: "
+        android:layout_marginBottom="5dp"
+        />
+</RelativeLayout>

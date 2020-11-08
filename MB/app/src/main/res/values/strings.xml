@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Impact Hotel</string>
+    <string name="login_title">Impact Hotel</string>
+    <string name="username_title">Username</string>
+    <string name="password_title">Password</string>
+    <string name="button_login">Login</string>
+    <string name="register">สมัครสมาชิก</string>
+    <string name="login_error_message">Username or Password is incorrect.</string>
+
+    <string name="tag">tag</string>
+    <string name="your_name">Username</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="swipe_right_for_login">Swipe right for login</string>
+
+    <string name="menu_home">หน้าหลัก</string>
+    <string name="menu_bed">จองห้องพัก</string>
+    <string name="menu_info">ข้อมูลส่วนตัว</string>
+</resources>

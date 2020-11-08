@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bed"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_below="@+id/imageView7"
+        android:id="@+id/textView_bed5"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#ff3eaff9"
+        android:text="ยอดที่ต้องชำระ"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/textView_bed5">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/wefwedwedwe"
+            android:layout_marginHorizontal="10dp"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/imageView9"
+            android:id="@+id/textView_bed1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="ราคา" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView_bed21"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/textView_bed1"
+            android:text="4500"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:id="@+id/textView_bed6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ยอดรวมทั้งหมด :" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="วันเช็คอิน    : "
+                />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/datafragment3"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_marginLeft="20dp"
+                android:id="@+id/btn_date3"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="..."
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="วันเช็คเอาท์ :"
+                />
+            <TextView
+                android:layout_marginLeft="23dp"
+                android:id="@+id/datafragment4"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_marginLeft="20dp"
+                android:id="@+id/btn_date4"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="..."
+                />
+        </LinearLayout>
+        <Button
+            android:layout_marginTop="55dp"
+            android:layout_below="@id/textView_bed6"
+            android:id="@+id/button_prepayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3eaff9"
+            android:text="ชำระเงิน"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
